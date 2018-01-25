@@ -1,0 +1,1245 @@
+/*=======================公共样式  start=================================*/
+body,a,dd,dl,fieldset,form,h1,h2,h3,h4,h5,h6,input,legend,ol,p,select,td,textarea,th,ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"microsoft yahei";
+    font-size: 16px;
+    background: #f4f4f8;
+}
+ul,li{
+    list-style:none;
+}
+b,strong{
+    font-weight:normal;
+}
+i,em{
+    font-style:normal;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+.clear{
+	clear:both;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+/*整个页面的padding值*/
+.padding{
+	padding:0px 20px;
+}
+.mLR10{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.mB10{
+	margin-bottom:10px;
+}
+/*灰色右边文字*/
+.greyfont{
+	font-size: 14px;
+	color: #ccc;
+}
+/*12号字体*/
+.fontSize12{
+	font-size: 12px;
+}
+/*字体颜色*/
+.fontColora0{
+	color: #a0a0a0;
+}
+.fontColor666{
+	color: #666;
+}
+
+/*=======================公共样式  end=================================*/
+
+
+/*============================张梦  start=================================*/
+
+			/*个人资料  personaldata*/
+.greyline{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color: #f4f4f8;
+}
+.zcombgc{
+	height: 100vh;
+	background-color: #f4f4f8;
+}
+.zptitle{
+	text-align: center;
+	font-size:18px;
+	background-color: #fff;
+	padding:13px 0;
+}
+.zptitle .backto{
+	float: left;
+	margin-left: 10px;
+	width:25px;
+	height: 25px;
+	background:url(../static/images/back.png) no-repeat 0 5px;
+	background-size:45%;
+}
+.zpcont li{
+	/*padding-left: 10px;*/
+	/*padding-right: 10px;*/
+	font-size: 15px;
+	padding:13px 10px;
+	border-bottom:1px solid #e9e9e9;
+}
+.zpcont{
+	background-color: #fff;
+}
+li.zpcontli1{
+	padding:25px 10px;
+}
+.zpersonimg1{
+	width:45px;
+	height: 45px;
+	border-radius: 50%;
+	float: right;
+	margin-right: 10px;
+	margin-top: -10px;
+}
+li.personalsex{
+	padding:25px 10px;
+}
+li.personalsex>img{
+	height: 50px;
+	margin-top: -15px;
+	margin-right: 10px;
+}
+					/*乐邦车介绍*/
+.zlebanglogo{
+	width:100%;
+	padding:30px 0;
+	text-align: center;
+}
+.leIntrocopy{
+	text-align: center;
+	font-size: 12px;
+	color: #ccc;
+	margin-top: 23px;
+}
+				/*充值记录 rechargerecord1*/	
+.zrecordul{
+	background-color: #fff;
+	
+}					
+.zrecordul li{
+	padding-top:14px;
+	padding-bottom: 14px;
+	display: flex;
+	border-bottom:1px solid #e9e9e9;
+}		
+.zrecordleft{
+	flex: 4;
+}					
+.zrecord{
+	font-size: 14px;
+	color: #333333;
+	margin:3px;
+}
+.zrecordcon{
+	font-size: 12px;
+	color: #a9a9a9;
+	margin:3px;
+
+}
+.zrecordright{
+	flex: 1;
+	text-align: right;
+	line-height: 62px;
+	font-size: 14px;
+	color: #a9a9a9;
+}
+
+		/*底部红色按钮*/
+.zrechargefooterbtn{
+	border:none;
+	width:100%;
+	background-color: #fa5a4b;
+	color: #fff;
+	font-size: 16px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	border-radius: 5px;
+}
+.zrechargefooter{
+	width:100%;
+	position: fixed;
+	bottom:0;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+			/*充值记录 rechargerecord2*/	
+.rechargerecord2{
+	width:100%;
+	box-sizing: border-box;
+	position: fixed;
+	top: 40%;
+}
+.emptychargepic{
+	vertical-align: middle;
+	text-align: center;
+	margin-bottom: 20px;
+}	
+.emptychargepic img{
+	width:100px;
+}	
+.emptychargeword{
+	font-size: 14px;
+	color: #b9b9b9;
+	text-align: center;
+}
+		/*订单详情 orderdatail*/
+.zorderdul{
+	background-color: #fff;
+	padding-bottom: 10px;
+}
+.zorderdlifirst{
+	padding-top: 13px;
+	padding-bottom: 13px;
+	font-size: 14px;
+	color: #a9a9a9;
+	border-bottom: 1px solid #e9e9e9;
+}
+.zorderdlicom{
+	display: flex;
+	padding:5px 0;
+}
+.zorderdlicom>p{
+	font-size: 15px;
+	color: #666666;
+}
+.zorderdleft{
+	flex: 1;
+}
+.zorderdright{
+	flex: 4;
+	padding-left: 10px;
+}
+/*红色字体*/
+p.fontColorRed{
+	color: #fa5a4b;
+	font-size: 16px;
+}
+		/*服务协议 serviceaggrement*/
+.serviceaggrementtit{
+	font-size: 16px;
+	color: #666666;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom:10px;
+}		
+.serviceaggrementcon{
+	font-size: 14px;
+	color: #666666;
+}
+		/*我的加油卡 mygascard*/
+.mygasadd{
+	font-size: 32px;
+	color: #666;
+	margin-top: -10px;
+	margin-right: 10px;
+}
+.zmygascardul{
+	background-color: #fff;
+	
+}
+.mygascardli{
+	display: flex;
+	border-bottom: 1px solid #e9e9e9;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.mygascardlileft{
+	flex:1;
+	vertical-align: middle;
+}
+.mygascardlileft>img{
+	width:48px;
+}
+.mygasno{
+	color: #a9a9a9;
+}
+.mygascardliright{
+	flex:5;
+	padding:15px 0;
+	padding-left: 10px;
+	/*line-height: 52px;*/
+}
+.mygascardnum{
+	/*line-height: 48px;*/
+
+}
+		/*充值说明 rechargestate*/
+.zshareion{
+	float: right;
+	width:23px;
+	height: 23px;
+	background: url(../static/images/zshareion.png) no-repeat 0 0;
+	background-size: cover;
+	margin-right: 10px;
+}
+.zstatetitle{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.zstatetitle>h3{
+	font-size: 16px;
+	margin-bottom: 5px;
+}
+.zstatetitle>p,
+.zstatecont>p{
+	font-size: 14px;
+	color: #666;
+}
+.zstatecont{
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.zstatecontp{
+	margin-bottom: 10px;
+}
+.gascardimg{
+	overflow: hidden;
+	padding-top: 20px;
+}
+.gascardimg>img{
+	width:48%;
+}
+.zstatebott{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.zstatebottword{
+	font-size: 15px;
+	color: #666;
+}
+.tobottomjian{
+	text-align: center;
+	vertical-align: middle;
+}
+.tobottomjian img{
+	width:22px;
+	height: 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+/*============================张梦 end========================================*/
+
+/*=================================曲丽栗 start=========================*/
+/*首页页面*/
+/*首页头部*/
+.index_top{
+	width:100%;
+	text-align: center;	
+	font-size: 18px;
+	padding:10px 10px;
+	background: #fff;
+	box-sizing: border-box;
+	color:#333333;
+}
+.index_top img{
+	width:10px;
+	
+}
+.index_top a{
+	font-size: 15px;
+}
+.index_top span{
+	margin:0 auto;
+	margin-left:-60px;
+}
+/*首页轮播*/
+.index_banner{
+	width:100%;
+}
+/*首页工具栏*/
+.index_toolbar{
+	width:100%;
+	padding: 12px 10px;
+	background: #fff;
+	border-bottom: 1px solid #d7d7dc;
+	height:105px;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+}
+.index_toolbar ul>li{
+	float: left;
+	width:18%;
+	height: 73px;
+	text-align: center;
+	font-size: 13px;
+	margin-right:6px;
+	position: relative;
+}
+.index_toolbar ul>li img{
+	width:50px;
+}
+.index_toolbar ul>li:first-child:before{
+	content:"3-6折";
+	display: block;
+	width:40px;
+	height: 14px;
+	background: #ff3232;
+	border-radius: 15px;
+	position: absolute;
+	top:-5px;
+	left:32px;
+	color:#fff;
+	text-align: center;
+	line-height: 14px;
+	font-size: 10px;
+	border:1px solid #fff;
+}
+/*邀请  新人*/
+.index_invite{
+	width:100%;
+	height: 130px;
+	background: #fff;
+	margin-bottom:10px;
+}
+.index_invite .topline{
+	width:100%;
+	height: 45px;
+	border-bottom: 1px solid #d7d7dc;
+	padding:10px 10px;
+	box-sizing: border-box;
+}
+.index_invite .topline img{
+	width:35px;
+}
+.topline_fr{
+	margin-left: 15px;
+}
+.topline_fr .new{
+	display: inline-block;
+	width:30px;
+	height: 17px;
+	border:1px solid #fa5a4b;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 11px;
+	color: #fa5a4b;
+}
+.topline_fr .teach{
+	float: right;
+	font-size: 13px;
+	margin-left: 10px;
+}
+.index_invite .newpep{
+	width:100%;
+	height:83px;
+	padding:0px 30px;
+	box-sizing: border-box;
+}
+.index_invite .newpep .newpepfl{
+	float: left;
+	width:45%;
+	padding: 18px 0px;
+	box-sizing: border-box;
+}
+.index_invite .newpep .newpepfl img{
+	width:30px;
+}
+.index_invite .newpep .newpepfl i{
+	font-size: 16px;
+}
+.index_invite .newpep .newpepfl span:first-child{
+	display: inline-block;
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.index_invite .newpep .newpepfl .spanlast{
+	color:#fa5a4b;
+	font-size: 14px;
+}
+.index_invite .newpep .ml{
+	margin-left:25px;
+}
+.index_invite .newpep .ml b{
+	font-size: 16px;
+}
+
+/*热门保养*/
+.index_maintain{
+	width:100%;
+	height: 265px;
+	background: #fff;
+	border-bottom: 1px solid #bbb;
+	margin-bottom:10px;
+}
+.maintain_title{
+	width:100%;
+	height: 45px;
+	border-bottom: 1px solid #d7d7dc;
+	padding: 0px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 45px;
+}
+.maintain_title span{
+	float: left;
+	font-size: 15px;
+}
+.maintain_title .lovecar{
+	float: right;
+	color:#ffa028;
+}
+.maintain_title .lovecar i{
+	display: inline-block;
+	width:20px;
+	height: 20px;
+	border-radius: 50%;
+	border:1px solid #ffa028;
+	text-align: center;
+	line-height: 15px;
+	color: #ffa028;
+	margin-right: 10px;
+}
+/*车标*/
+.cars_icon{
+	width:100%;
+	height: 219px;
+}
+.cars_icon .cras_li{
+	width:100%;
+	height: 185px;
+	background: #fff;
+	padding:20px 0px;
+}
+.cars_icon .cras_li li{
+	text-align: center;
+	width:24%;
+	height:75px ;
+	float: left;
+}
+.cars_icon .cras_li li span{
+	color:#fa5a4b;
+}
+.cars_icon .cras_li li span i{
+	font-size: 18px;
+}
+.cars_icon .cras_li li img{
+	width:60px;
+	height: 25px;
+}
+.cars_icon_footer{
+	width:100%;
+	height:34px;
+	line-height:34px;
+	box-sizing: border-box;
+	font-size: 13px;
+	color:#a7a7a7;
+}
+.cars_icon_footer img{
+	margin-left:5px;
+	width:6px;
+}
+/*首页footer*/
+.index_footer{
+	width:100%;
+	height: 55px;
+	border-top:1px solid #e7e7e6;
+	background: #fff;
+	box-sizing: border-box;
+}
+.index_footer ul>li{
+	width:24%;
+	height:55px;
+	float: left;
+	text-align: center;
+	font-size: 12px;
+	padding:10px 0px;
+	box-sizing: border-box;
+	color:#666;
+}
+.index_footer ul>li img{
+	width:22px;
+}
+.footer_color{
+	color:#fa5a4b;
+}
+/*4s店 页面*/
+/*头部标题*/
+.carmodel_top{
+	width:100%;
+	border-bottom: 1px solid #bbb;
+}
+.modeltop_title{
+	width:100%;
+	height: 44px;
+	text-align: center;
+	box-sizing: border-box;
+	line-height: 44px;
+	font-size: 18px;
+	color:#313131;
+	background:#fff;
+	border-bottom: 1px solid #e7e7e6;
+}
+.modeltop_title span{
+	font-size: 15px;
+}
+/*排序*/
+.carmodel_sort{
+	width:100%;
+}
+.modelsort_title{
+	width:100%;
+	height: 44px;
+	background: #fff;
+}
+.modelsort_title a{
+	width:47%;
+	height: 44px;
+	text-align: center;
+	line-height:44px;
+	font-size: 14px;
+	color:#636363;
+}
+.modelsort_title a img{
+	width:10px;
+}
+.modelsort_title .line{
+	float: left;
+	margin:5px 8px;
+}
+/*各个车的介绍*/
+.cars_introduce{
+	width:100%;
+	background: #fff;
+}
+.cars_introduce ul>li{
+	width: 100%;
+	height: 111px;
+	border-bottom: 1px solid #e7e7e6;
+}
+.cars_introduce ul>li .li_img{
+	width:75px;
+	float: left;
+	margin:14px 15px;
+	border-radius: 5px;
+	height: 80px;
+}
+.cars_introduce ul>li .li_fr{
+	width:70%;
+	height:111px;
+	float: right;
+	padding:15px 10px 25px 10px;
+	box-sizing: border-box;
+}
+.cars_introduce ul>li .li_fr p{
+	font-size: 15px;
+}
+.cars_introduce ul>li .li_fr .li_fl_img img{
+	width:22px;
+}
+.cars_introduce ul>li .li_fr .li_fl_img b{
+	font-size: 18px;
+	color:#ff5a4a;
+}
+.cars_introduce ul>li .li_fr .li_score{
+	color:#ffa52b;
+}
+.cars_introduce ul>li .li_fr .li_local{
+	color:#636363;
+}
+/*我的优惠券页面*/
+/*头部*/
+.discount_top{
+	width:100%;
+	border-bottom: 1px solid #e7e7e6;
+	background: #fff;
+	margin-bottom: 20px;
+}
+.discount_top_content{
+	width:100%;
+	height:44px;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 18px;
+}
+.discount_top_content img{
+	width: 10px;
+}
+.discount_top_content span{
+	color:#666;
+	font-size: 15px;
+}
+/*不使用优惠券*/
+.not_discount{
+	width:100%;
+	margin-bottom: 20px;
+	padding:0px 10px;
+	box-sizing: border-box;
+}
+.not_discount_content{
+	width:100%;
+	height:44px;
+	background: #fff;
+	border-radius: 10px;
+	font-size: 15px;
+	color:#fa5a4b;
+	text-align: center;
+	line-height: 44px;
+}
+/*优惠券们*/
+.discounts{
+	width:100%;
+	padding:0px 10px;
+	box-sizing: border-box;
+}
+.discounts ul>li{
+	width:100%;
+	float: left;
+	background-image: url(../static/images/dis2.png);
+	margin-bottom: 20px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.discounts ul>li .li_money{
+	float: right;
+	width:61%;
+	padding:15px 22px;
+	box-sizing: border-box;
+	color:#666;
+}
+.discounts ul>li .li_money_size{
+	font-size: 20px;
+	font-weight: bold;
+}
+.discounts ul>li .li_money_all{
+	font-size: 12px;
+	margin-top:-10px;
+}
+.discounts ul>li .li_money2{
+	width:39%;
+	float: left;
+	line-height: 100px;
+	font-size: 25px;
+	color:#fff;
+	padding-left: 30px;
+	box-sizing: border-box;
+}
+.discounts ul>li:nth-child(2){
+	background-image:url(../static/images/dis3.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.discounts ul>li:nth-child(3){
+	background-image:url(../static/images/dis4.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.discounts ul>li:nth-child(4){
+	background-image:url(../static/images/dis5.png) ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*历史记录*/
+.discount_history{
+	width:100%;
+	margin-bottom: 20px;
+	padding:12px 10px;
+	box-sizing: border-box;
+	background: #fff;
+}
+.discount_history_content{
+	background: #fff;
+	border-radius: 10px;
+	font-size: 15px;
+	color: #666;
+}
+/*选择年款配置页面*/
+.top0{
+	margin-bottom: 0px;
+}
+.years{
+	width:100%;
+	padding:6px 10px;
+	color:#666;
+	box-sizing: border-box;
+	}
+.years_14{
+	width:100%;
+	background: #fff;
+}
+.years_14 ul>li{
+	width:100%;
+	padding:20px 10px;
+	border-bottom: 1px solid #d7d7dc;
+	color:#333;
+	box-sizing: border-box;
+}
+/*验证乐车券码页面*/
+.check_top{
+	width:100%;
+	border-bottom: 1px solid #d7d7dc;
+	background: #fff;
+}
+.check_top_content{
+	width:100%;
+	padding:14px 10px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 18px;
+}
+.check_top_content img{
+	width: 10px;
+}
+/*提示*/
+.check_tip{
+	width:100%;
+	padding:13px 10px;
+	box-sizing: border-box;
+	border-bottom: 1px solid #ffd2aa;
+	color:#ffa028;
+	font-size: 12px;
+	background: #fffae6;
+}
+.check_tip span{
+	float: left;
+	width:14px;
+	height: 12px;
+	border:1px solid #ffa028;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 12px;
+	margin-right: 8px;
+}
+/*券码*/
+.coupon_code{
+	width:100%;
+	padding:20px 10px;
+	text-align: center;
+}
+.coupon_code .code_font{
+	font-size: 15px;
+	color:#666;
+	margin-right:20px;
+}
+.coupon_code .code_number{
+	font-size: 30px;
+	color:#333;
+}
+/*输入券码*/
+.check_input{
+	width:100%;
+	padding:0px 10px;
+	box-sizing: border-box;
+}
+.check_input input{
+	width:100%;
+	padding:25px 0px;
+	border:none;
+	outline: none;
+	text-align: center;
+}
+/*确认验券*/
+.check_sure{
+	width:100%;
+	padding: 0px 10px;
+	box-sizing: border-box;
+	margin-top:20px;
+}
+.check_sure a{
+	display: block;
+	width:100%;
+	padding:14px 0px;
+	background: #fa5a4b;
+	border-radius: 5px;
+	color:#fff;
+	text-align: center;
+	font-size: 18px;
+}
+/*意见反馈页面*/
+.feed_content{
+	width:100%;
+	padding:12px 10px;
+	box-sizing: border-box;
+}
+.feed_content textarea{
+	width:100%;
+	border:none;
+	outline: none;
+	height: 100px;
+	background: #fff;
+	padding:10px 0px 0px 10px;
+	box-sizing: border-box;
+	color:#ccc;
+	font-size: 14px;
+}
+/*追加评论页面*/
+.add_star{
+	width:100%;
+	text-align: center;
+	padding: 15px 10px;
+	box-sizing: border-box;
+}
+.add_star span:first-child{
+	color:#333;
+	font-size: 15px;
+	margin-right: 20px;
+}
+.add_star span:nth-child(2){
+	color:#ffc341;
+	font-size: 20px;
+}
+.add_star span:last-child{
+	float: right;
+	margin-right: 20px;
+	font-size: 13px;
+	color:#999;
+}
+
+/*注册有礼页面*/
+.owner{
+	width:100%;
+	background: url(../static/images/registbj2.png) no-repeat -47px 0px;
+    background-size: 128%;
+}
+.owner_top{
+	padding:180px 10px 135px 10px;
+	box-sizing: border-box;
+}
+.owner_top p{
+	width:100%;
+	padding:15px 0px;
+	box-sizing: border-box;
+	color:#fa5a4b;
+	font-size: 18px;
+	font-weight: bold;
+	background: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+.owner_footer{
+	width:100%;
+	padding:20px 10px;
+	box-sizing: border-box;
+	background:url(../static/images/registbj3.png) no-repeat;
+}
+.owner_footer p{
+	font-size: 12px;
+	color:#823228;
+}
+.owner_footer p:first-child{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+/*footer*/
+.registgift_footer{
+	width:100%;
+	padding:13px 10px;
+	background:#fff;
+	text-align: center;
+	font-size: 15px;
+	color:#666;
+}
+.registgift_footer img{
+	width:15px;
+	margin-right: 10px;
+	
+}
+/*=================================曲丽栗 end=========================*/
+
+/*=================================郭方林 start===========================*/
+
+/*个人资料*/
+.pre_header{
+	width: 100%;
+	text-align: center;
+	padding:14px 0px;
+	line-height:18px ;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+	
+}
+.pre_gray{
+	padding: 5px;
+	background-color: #f4f4f8;
+}
+.pre_head{
+	padding: 11px 15px;
+	line-height: 45px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+}
+.pre_tel{
+	padding: 12px 15px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+}
+.pre_name{
+	padding: 12px 15px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+}
+input::-webkit-input-placeholder{
+	color: #cccccc;
+}
+.pre_nickname{
+	padding: 12px 15px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+}
+.pre_sex{
+	padding: 11px 15px;
+	line-height: 45px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+}
+.pre_gray1{
+	padding: 6px 15px;
+	background-color: #f4f4f8;
+	color: #999999;
+}
+.pre_vx{
+	padding: 12px 15px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+}
+
+/*热门活动*/
+.act_header{
+	width: 100%;
+	text-align: center;
+	padding:14px 0px;
+	line-height:18px ;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+	background: #fff;
+}
+.act_11,.act_22,.act_33{
+	padding: 15px 15px;
+	background-color: #ffffff;
+	margin-top: -4px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.act_gray{
+	padding: 5px;
+	background-color: #f4f4f8;
+}
+
+/*设置*/
+.set_header{
+	width: 100%;
+	text-align: center;
+	padding:14px 0px;
+	line-height:18px ;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+	background-color: #ffffff;
+}
+.set_per,.set_message,.set_edition,.set_about,.set_privacy{
+	padding: 12px 15px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #333333;
+	background-color: #ffffff;
+}
+.set_gray{
+	padding: 6px;
+}
+.set_exit{
+	outline:none;
+	width: 100%;
+	padding: 12px 15px;
+	background-color: #ffffff;
+	border: 0px;
+	color: #fa5a4b;
+	border-bottom: 1px solid #e9e9e9;
+}
+
+
+/*在线支付*/
+.pay_orange{
+	padding: 12px 15px;
+	border-bottom: 1px solid #ffd2aa;
+	color: #ffa028;
+	background-color: #fffae6;
+	font-size: 13px;
+}
+.pay_order{
+	padding: 15px 15px;
+	color: #333333;
+	background-image: url(../static/images/pay_curve.png);
+	background-size:100% 99%;
+}
+.pay_gray{padding: 6px;}
+.pay_balance{
+	padding: 12px 15px;
+	border-bottom: 1px solid #d7d7dc;
+	color: #999999;
+	line-height: 24px;
+	font-size: 14px;
+	background-color: #fafafa;
+}
+.pay_need{
+	padding: 8px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	font-size: 15px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.pay_vxpayment{
+	padding: 16px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e9e9e9;
+}
+.pay_zfbpayment{
+	padding: 12px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	height: 52px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.pay_ylpayment{
+	padding: 12px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	height: 40px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.pay_moreyhkpayment{
+	padding: 16px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e9e9e9;
+}
+.pay_gfpayment{
+	padding: 16px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e9e9e9;
+}
+.pay_nongyepayment{
+	padding: 16px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e9e9e9;
+}
+.pay_btn{
+	background-color: #ffffff;
+}
+.pay_btn1{
+	width: 92%;
+	margin-left: 4%;
+	background-color: #fa5a4b;
+	line-height: 36px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	border: 0px;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+/*我的页面*/
+.my_header{
+	background: url(../static/images/my_headbg.png);
+	background-size:100% 100%;
+	line-height:50px;
+	border-bottom: 1px solid #e9e9e9;
+	color: #ffffff;
+	padding-top: 60px;
+	padding-bottom: 90px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.my_row2{
+	background-color: #ffffff;
+	text-align: center;
+}
+.my_row33{
+	background-color: #ffffff;
+	width: 33%;
+	padding: 15px 0px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.my_row34{
+	background-color: #ffffff;
+	width: 33%;
+	padding: 15px 0px;
+	border-left: 1px solid #e9e9e9;
+	border-right: 1px solid #e9e9e9;
+	border-bottom: 1px solid #e9e9e9;
+}
+.my_0{font-size: 20px;
+		}
+.my_grayzi{
+	color: #999999;
+}
+.my_smallzi{
+	font-size: 13px;
+	line-height: 20px;
+}
+.my_dingdan{
+	padding: 15px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e9e9e9;
+	line-height: 20px;
+	overflow: hidden;
+}
+.my_gray{
+	padding: 6px;
+	overflow: hidden;
+}
+.my_row3{
+	background-color: #ffffff;
+	text-align: center;
+}
+.my_row331{
+	background-color: #ffffff;
+	width: 33%;
+	padding: 15px 0px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.my_row341{
+	background-color: #ffffff;
+	width: 34%;
+	padding: 15px 0px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.my_yaoqing,.my_haoping,.my_jiameng,.my_huodong,.my_kefu,.my_wenti,.my_fankui{
+	padding: 15px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e9e9e9;
+	line-height: 20px;
+}
+
+
+/*支付结果页面*/
+.psu_zfwancheng{
+	text-align: center;
+	padding: 40px 20px;
+	background-color: #ffffff;
+	line-height: 30px;
+	border-bottom: 1px solid #e9e9e9;
+}
+.psu_dingdan{
+	padding: 15px 15px;
+	color: #333333;
+	background-color: #ffffff;
+	border-bottom: 1px solid #e9e9e9;
+	line-height: 20px;
+}
+/*===================================郭方林 end=============================*/
